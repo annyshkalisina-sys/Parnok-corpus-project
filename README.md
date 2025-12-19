@@ -11,7 +11,7 @@ my_corpus_project/
 │   └── ...
 ├── data/                # Структурированные данные
 │   └── metadata.csv
-├── results/             # Результаты анализа
+├── results/             # Результаты анализа (создаётся автоматически)
 │   ├── statistics.csv
 │   └── report.txt
 ├── main.py              # Главный файл с точкой входа
@@ -19,6 +19,7 @@ my_corpus_project/
 ├── file_utils.py        # Функции работы с файлами
 ├── README.md            # Документация проекта
 └── PROJECT_REQUIREMENTS.md  # Этот файл (для справки)
+```
 
 ## Как запустить
 python main.py
